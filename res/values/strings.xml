@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Wagba Project</string>
+    <string name="logoname"> Wagba </string>
+    <string name="slogan"> A Food delivery application special for you! </string>
+    <string name="logintext1"> Hello There, User </string>
+    <string name="logintext2"> Log In to continue </string>
+    <string name="hintmail"> Your Faculty official mail</string>
+    <string name="btn1login"> Go! </string>
+    <string name="logintext3"> New User ? </string>
+    <string name="btn2login"> Sign Up </string>
+    <string name="signuptext1"> Welcome! </string>
+    <string name="signuptext2"> Sign up to start your journey </string>
+    <string name="todo">TODO</string>
+    //Restaurants
+    <string name="Arbys">Arbys </string>
+    <string name="bk">Burger King </string>
+    <string name="D">Dominos </string>
+    <string name="Hs">Hardees</string>
+    <string name="kfc">KFC </string>
+    <string name="mac">MAC </string>
+    <string name="ph">Panda House </string>
+    <string name="sb">Starbucks </string>
+    <string name="sw">Subway </string>
+    <string name="pj">Papa Johns </string>
+    //dishes
+    <string name="Dish1"> Chicken Ranch </string>
+    <string name="Dish2"> Pepperoni </string>
+    <string name="Dosh3"> Pizza Hot n Spicy </string>
+    <string name="Dish4"> Pizza Super Papa </string>
+    //prices
+    <string name="Price1">120 LE</string>
+    <string name="Price2">150 LE</string>
+    <string name="Price3">110 LE</string>
+    <string name="Price4">80 LE</string>
+    //cart items
+    <string-array name="items">
+        <item> Chicken Ranch </item>
+        <item> Pepperoni </item>
+    </string-array>
+
+    //cart item prices
+    <string-array name="itemprices">
+        <item> 120 LE </item>
+        <item> 150 LE </item>
+    </string-array>
+    <string-array name="restaurants">
+        <item> Arbys </item>
+        <item> Burger King </item>
+        <item> Dominos </item>
+        <item> Hardees </item>
+        <item> KFC </item>
+        <item> MAC </item>
+        <item> Panda House </item>
+        <item> Starbucks </item>
+        <item> Subway </item>
+        <item> Papa Johns </item>
+    </string-array>
+
+    <string-array name="Dishes">
+        <item> Chicken Ranch </item>
+        <item> Pepperoni </item>
+        <item> Pizza Hot n Spicy </item>
+        <item> Pizza Super Papa </item>
+    </string-array>
+
+    <string-array name="Prices">
+        <item>120 LE</item>
+        <item>150 LE</item>
+        <item>110 LE</item>
+        <item>80 LE</item>
+    </string-array>
+
+    <string-array name="gates">
+        <item> Gate 3 </item>
+        <item> Gate 4</item>
+    </string-array>
+
+    <string-array name="delivery">
+        <item> 12:00 PM </item>
+        <item>  3:00 PM</item>
+    </string-array>
+</resources>

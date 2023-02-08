@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#DAEAFF"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logoname"
+        android:layout_width="128dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/signuptext1"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/signuptext1"
+        android:textColor="#663D21"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/logintext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/signuptext2"
+        android:textColor="#663D21"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter your full name"
+            android:inputType="text"
+            android:textColor="#663D21"
+            android:textColorHint="#5D4037" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        android:hint="UserName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#663D21" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintmail"
+            android:textColor="#663D21"
+            android:textColorHint="#5D4037" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textColor="#663D21"
+            android:textColorHint="#5D4037" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="#663D21" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1signup"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#00F2A6"
+        android:text="@string/btn1login"
+        android:textColor="#663D21"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3signup"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#00F2A6"
+        android:text="check My profile data"
+        android:textColor="#663D21"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2signup"
+        android:layout_width="286dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFE590"
+        android:text="Already have an account? Log In"
+        android:textColor="#663D21"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
